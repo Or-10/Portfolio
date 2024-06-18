@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Me</title>
+</head>
+<body>
+    <div id="loader">
+        <h1>HELLO WORLD!!</h1>
+        <h1>CONTACT ME </h1>
+        <h1>THROUGH...</h1>
+       
+    </div>
+    <div id="main">
+        <div id="nav">
+            <div class="lft-nav">
+                <a href="./index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="cntr-nav">
+                <a href="./about.html">About</a>
+                <a href="./project.html">Projects</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="rht-nav">
+                <a href="OM_resume.pdf"><button>Download CV</button></a>
+            </div>
+
+            <i class="ri-menu-3-line"></i>
+        </div>
+        
+
+
+        <div id="submain">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <input type="hidden" name="access_key" value="a76c9bb5-6679-4882-95f1-cdfa1a00d317">
+                <div class="contact-left-title">
+                    <h2>Connect with Me ! </h2>
+                    <hr>
+                </div>
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="text" name="email" placeholder="Email" class="contact-inputs" required>
+                <input type="text" name="Number" placeholder="Phone Number" class="contact-inputs">
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="images/arrow_icon.png" alt=""></button>
+
+            </form>
+            <div class="contact-right">
+                <img src="images/right_img.png" alt="">
+            </div>
+
+        </div>
+
+        <div id="profiles">
+            <h2>Know Me Better !</h2>
+            <div id="icons">
+                <a href="https://github.com/Or-10"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/in/om-raj/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+
+
+            </div>
+        </div>
+       
+
+    
+    </div>
+
+
+    
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+    <script>
+        function loaderAnimation() {
+    var loader = document.querySelector("#loader")
+    setTimeout(function () {
+        loader.style.top = "-100%"
+    }, 4200)
+}
+
+loaderAnimation()
+    </script>
+    
+</body>
+</html>

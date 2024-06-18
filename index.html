@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Om Raj</title>
+</head>
+<body>
+    <!-- <div id="loader">
+        <h1>HELLO WORLD !!</h1>
+        <h1>THANKS FOR SHOWING</h1>
+        <h1>INTREST IN MY WEBSITE</h1>
+       
+    </div> -->
+
+    <div id="main">
+        <div id="nav">
+            <div class="lft-nav">
+                <a href="./index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="cntr-nav">
+                <a href="./about.html">About</a>
+                <a href="./project.html">Projects</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="rht-nav">
+                <a href="OM_resume.pdf" target="_blank"><button>Download CV</button></a>
+            </div>
+
+            <i class="ri-menu-3-line"></i>
+        </div>
+        
+        <div id="hero">
+            <div id="lft">
+                <h1>HELLO<br>THERE!!!</h1>
+                <p>As an aspiring frontend developer, I blend creative design with technical expertise to craft engaging user interfaces. Eager to innovate and contribute to the ever-evolving digital landscape.</p>
+                <div class="btn">
+                    <a href="project.html"><button>View Works</button></a> 
+                    <a href="contact.html"><button>Contact Me</button></a>
+                </div>
+            </div>
+           
+            <div id="rght">
+                <video src="images/coding.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+        <div id="page1" >
+            
+                <h1 id="h1">Know Me</h1>
+                <div id="page1-container">
+                    <div id="page1-left">
+                        <h2>I am a Student + <span class="auto-type"></span> </h2>
+                       
+                    </div>
+        
+                    <div id="page1-right">
+                        <img src="images/om.png" alt="">
+                       <a href="contact.html"><button id="btn">Contact Me</button></a> 
+        
+                    </div>
+                </div>
+            
+        </div>
+        <div id="footer"></div>
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings:["Freelancer","Coder","FrontEnd Developer"],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+
+        function loaderAnimation() {
+            var loader = document.querySelector("#loader")
+            setTimeout(function () {
+                loader.style.top = "-100%"
+                    }, 4200)
+             }
+
+loaderAnimation()
+
+      
+    </script>
+    
+</body>
+</html>
